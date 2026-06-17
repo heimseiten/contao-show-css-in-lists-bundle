@@ -1,0 +1,32 @@
+{
+    "name": "heimseiten/contao-show-css-in-lists-bundle",
+    "type": "contao-bundle",
+    "description": "Zeigt CSS-IDs und CSS-Klassen in den Backend-Listenansichten (Seiten, Artikel, Inhaltselemente) von Contao an – pro Benutzer einschaltbar.",
+    "keywords": [
+        "contao",
+        "backend",
+        "css",
+        "listing"
+    ],
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "heimseiten.de - Webdesign aus Köln",
+            "email": "info@heimseiten.de",
+            "homepage": "https://www.heimseiten.de",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "contao/core-bundle": "^5.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Heimseiten\\ContaoShowCssInListsBundle\\": "src/"
+        }
+    },
+    "extra": {
+        "contao-manager-plugin": "Heimseiten\\ContaoShowCssInListsBundle\\ContaoManager\\Plugin"
+    }
+}
