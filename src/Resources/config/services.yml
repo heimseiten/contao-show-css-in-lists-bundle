@@ -1,8 +1,0 @@
-services:
-    _defaults:
-        autowire: true
-        autoconfigure: true
-
-    Heimseiten\ContaoShowCssInListsBundle\:
-        resource: '../../*'
-        exclude: '../../{DependencyInjection,Resources,HeimseitenContaoShowCssInListsBundle.php,ContaoManager}'

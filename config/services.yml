@@ -1,0 +1,10 @@
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+
+    Heimseiten\ContaoShowCssInListsBundle\:
+        resource: '../src/'
+        exclude:
+            - '../src/HeimseitenContaoShowCssInListsBundle.php'
+            - '../src/ContaoManager/'
